@@ -89,3 +89,13 @@ cursor: pointer!important;
     right: 10px;
     position: absolute;
 }
+#chatContainer {
+    display: flex;
+    width: 300px;justify-content: right;
+    position: fixed;
+    bottom: 80px; /* Adjust the distance from the bottom */
+    right: 20px; /* Adjust the distance from the right */
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
