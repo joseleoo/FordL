@@ -89,7 +89,7 @@ cursor: pointer!important;
     right: 10px;
     position: absolute;
 }
-#chatContainer {
+.chatContainer {
     display: flex;
     width: 300px;justify-content: right;
     position: fixed;
