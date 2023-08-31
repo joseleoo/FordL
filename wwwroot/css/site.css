@@ -17,3 +17,75 @@
 
     margin-left: 50px;
 }
+#carouselExampleAutoplaying{
+    max-height: 5px !important;
+    margin-top: 5px;
+}
+.carousel-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carouselExampleAutoplaying {
+    margin-bottom: 1rem; /* Adjust the margin as needed */
+}
+
+#carousel-arrows {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    right: 60px;
+    gap: 5rem; /* Adjust the gap between arrows as needed */
+    position: absolute;
+    top: 33rem; /* Adjust the distance from the bottom as needed */
+}
+h1{
+    font-size: 75px!important;
+    display: flex;
+    justify-content: left;
+}
+h5{
+    font-size: 35px!important;  
+    display: flex;
+    justify-content: left; 
+}   
+
+.carousel-caption{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    left: 10px;
+    position: absolute;
+}
+.arrows{
+    background-color:#00095b;
+    border: solid 0.5px    
+}
+
+.btn_caption{
+    cursor:pointer;
+    font-size:30px;
+    font-family: 'Arial Narrow';
+    font-weight:900;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 50%;    
+}
+.learn{
+
+    margin-right: 15px;
+}
+.btn:hover{
+cursor: pointer!important;
+    
+}
+.dropdown{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    right: 10px;
+    position: absolute;
+}
